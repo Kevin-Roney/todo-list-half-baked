@@ -3,7 +3,7 @@ export function renderTodo(todo) {
     const todoEl = document.createElement('div');
     const todoItem = document.createElement('p');
     // depending on whether the todo is complete, give the div the appropriate css class ('complete' or 'incomplete')
-    if (todo.complete === true) {
+    if (todo.complete) {
         todoEl.classList.add('complete');
     } else {
         todoEl.classList.add('incomplete');
