@@ -45,3 +45,25 @@
     margin: 20px;
     font-size: 1.3rem;
 }
+body {
+    background-color: rgb(82, 82, 146);
+}
+
+.loading-spinner {
+    background-color: rgba(0, 0, 0, 0.45);
+    font-size: 5rem;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.invisible {
+    display: none;
+}
+
+#loading-text {
+    animation: pulse .4s infinite ease-in-out;
+}
